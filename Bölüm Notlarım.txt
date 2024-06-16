@@ -1,0 +1,28 @@
+-- 1. Bölüm Notlarý --
+Mikroservis hakkýnda medium: https://medium.com/@furkanbegen/mikroservis-mimarisi-nedir-ve-avantajlar%C4%B1-nelerdir-1369175cc4e6
+
+-- 2. Bölüm Notlarý --
+- MongoDB hakkýnda medium: https://medium.com/@berkekurnaz/nedir-bu-mongodb-994a94a9d1df
+- MongoDB.Bson ve MongoDB.Driver paketleri indirildi.
+- Appsettingste;
+    "DatabaseSettings": {
+        "CategoryCollectionName": "Categories",
+        "ProductCollectionName": "Products",
+        "ProductDetailCollectionName": "ProductDetails",
+        "ProductImageCollectionName": "ProductImages",
+        "FeatureSliderCollectionName": "FeatureSliders",
+        "SpecialOfferCollectionName": "SpecialOffers",
+        "FeatureCollectionName": "Features",
+        "OfferDiscountCollectionName": "OfferDiscounts",
+        "BrandCollectionName": "Brands",
+        "AboutCollectionName": "Abouts",
+        "ContactCollectionName": "Contacts",
+        "ConnectionString": "mongodb://localhost:27017",
+        "DatabaseName": "MultiShopCatalogDb"
+      },
+ ile tablolarý tanýmladýk.
+- Settings klasöründe db interface ve classýný yazdýk.
+- Dtos klasörü ile devam ettik.
+- Mapping iþlemi yaptýk.
+
+-- 3. Bölüm Notlarý --
